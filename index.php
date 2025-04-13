@@ -1,14 +1,14 @@
 <?php
 
-    $fullName = " Nour Tuma"; //string
+    $fullName = " Nour Tuma"; 
     $age = 23; //integer
-    $jobTitle = " Fullstack Web Developer"; //string
-    $city = "Damascus"; //string
-    $yearsOfExperience = 9.5; //float
-    $drivingLicense = true; //boolean
-    $skills = ["PHP", "Laravel", "Vue.js", "MySQL"]; // array
-    $image = "./image/OIP.jpg"; //  string
-    $currentDate = date("Y-m-d"); // string
+    $jobTitle = " Fullstack Web Developer"; 
+    $city = "Damascus";
+    $yearsOfExperience = 9.5; 
+    $drivingLicense = true; 
+    $skills = ["PHP", "Laravel", "Vue.js", "MySQL"]; 
+    $image = "./image/OIP.jpg"; 
+    $currentDate = date("Y-m-d");
 
     ?>
 
@@ -36,8 +36,8 @@
 
     <p>Skill:</p>
     <ul>
-        <?php foreach ($skills as $skillName): ?>
-            <li><?php echo $skillName; ?></li>
+        <?php foreach ($skills as $skill): ?>
+            <li><p><?php echo $skill; ?></p></li>
         <?php endforeach; ?>
     </ul>
 
